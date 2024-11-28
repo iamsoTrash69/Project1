@@ -1,0 +1,130 @@
+body {
+    background-image: url(bg.jpg);
+    background-size: cover;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Playfair Display', serif;
+}
+
+#left {
+    position: absolute;
+    display: inline-block;
+    left: 35px;
+    top: 35px;
+    text-align: center;
+    /* border: 3px solid white; */
+
+
+}
+
+#mid {
+    display: block;
+    width: 37%;
+    margin: 35px auto;
+    /* border: 3px solid yellow; */
+
+
+}
+
+#right {
+    position: absolute;
+    right: 78px;
+    top: 48px;
+    display: inline-block;
+    /* border: 3px solid green; */
+    text-align: center;
+    width: fit-content;
+
+
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: auto;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    color: black;
+    background-color: white;
+    box-shadow: 4px 4px 4px 1px rgb(167, 173, 157);
+    border-radius: 4px;
+    text-shadow: 4px 2px 4px ;
+    
+}
+#left img{
+    width: 130px;
+    filter: invert(50%);
+}
+.trash{
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: bolder;
+    font-stretch: expanded;
+    font-size: larger;
+    font-size: 25px;
+    font-style: italic;
+    color: beige;
+}
+.search{
+    border-radius: 20px;
+    text-align: center;
+    font-style: italic;
+    width: 300px;
+    height: 25px;
+    background-color: rgb(249, 242, 242);
+    color: aliceblue;
+}
+.search :placeholder-shown{
+    color: white;
+}
+#right img{
+    width: 25px;
+    filter: invert(60%);
+    position: absolute;
+    top: 3px;
+    padding-left: 6px;
+}
+.help{
+    position: fixed;
+    right: 1px;
+    bottom: 50px;
+    /* border: 2px solid red; */
+    width: 200px;
+    padding: 6px;
+    display: block;
+    text-align: center;
+}
+.help img{
+    width: 18px;
+    filter: invert(60%);
+    position: absolute;
+    top: 10px;
+
+}
+.cnc{
+    padding-left: 30px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+#home{ text-decoration: underline;
+    text-underline-offset: 8px;
+    
+}

@@ -1,0 +1,71 @@
+/* Prevent horizontal scrolling */
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+body{
+    background-image: url(bg1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+*{
+    box-sizing: inherit;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Ensure the header stays on top */
+    width: 100%; /* Ensure the header spans the full width */
+}
+
+.nav {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: rgb(7, 7, 7);
+    padding: 15px;
+    color: aliceblue;
+}
+
+.navbar {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(7, 7, 7); /* Ensure the background color spans the full width */
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 15px 20px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 3px 3px 2px rgb(130, 122, 122);
+    margin: 0 10px; /* Adjust margin to prevent overflow */
+}
+
+.navbar li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 1px;
+}
+
+.navbar li:hover {
+    background-color: black;
+    transform: scale(1.2);
+}
+
+.navbar li:hover a {
+    color: white;
+}
+
+/* Add padding to the main content */
+section {
+    margin-left: 20px;
+}
